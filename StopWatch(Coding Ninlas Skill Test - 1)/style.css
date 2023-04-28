@@ -1,0 +1,129 @@
+/* 6295864928 */
+/* Styling the h1 */
+h1{ 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 50px;
+    overflow: hidden;
+    width: 500px;
+    margin-left: 32.2rem; 
+    background-color:none;
+    text-shadow: 7px 7px 3px rgb(121, 237, 213); 
+    animation: watch 2.5s infinite alternate ease-in-out;
+    
+}
+/* Create a animation on h1 tag */
+@keyframes watch{
+    0%{
+         transform: translateX(520px); 
+        
+    }
+
+    100%{
+        transform: translateX(-520px); 
+        
+    }
+} 
+
+
+/* Styling the body */
+
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
+    background: linear-gradient( #f02727f5, #ff0278,  rgb(226, 144, 20) , rgb(63, 63, 233));
+    
+}
+/* Styling the section */
+section{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling the time div */
+#time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+    width: 450px;
+    margin-top:7rem;
+    padding: 50px;
+    border: 4px solid rgb(5, 254, 142);
+    border-radius: 11px 11px 11px 11px;
+    box-shadow: 7px 17.7px 27px rgb(2, 232, 90);
+
+}
+/* Styling the digit of the time  */
+.digit{
+    color: white;
+    font-size: 5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Styling the text of the time */
+.text{ 
+    color: rgb(250, 247, 247);
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+/* Styling the button's container */
+#btn-container{
+    text-align: center;
+    justify-content: center;
+    padding-top: 2.7rem;
+    width: 100%;
+}
+/* Styling the buttons */
+.btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 30px 16px;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    border: 0px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    transition: 0.2s;
+    
+}
+/*  Styling the start, stop , reset button*/
+#Start{
+    background-color: rgb(71, 233, 71);
+}
+#Stop{
+   background-color: #2495e0;
+}
+#Reset{
+    background-color: red;
+}
+/* Hovering effect on start, stop, reset button and h1 tag */
+#Start:hover{
+    cursor: pointer;
+    background-color: rgb(88, 222, 43);
+    box-shadow: 0px 7px 34px rgb(2, 232, 90);
+}
+#Stop:hover{
+    cursor: pointer;
+    background-color: rgb(16, 162, 220);
+    box-shadow: 0px 7px 34px rgb(6, 171, 221); 
+}
+#Reset:hover{
+    cursor: pointer;
+    background-color: rgb(246, 26, 26);
+    box-shadow: 0px 7px 34px rgb(171, 5, 5);   
+}
+
+h1:hover{
+    cursor: pointer;
+    text-shadow:15px 15px 7px  rgb(222, 227, 67);
+    transition: 0.3s;
+}
