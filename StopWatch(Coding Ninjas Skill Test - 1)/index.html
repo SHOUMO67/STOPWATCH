@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <!-- Create a h1 tag -->
+    <h1>STOPWATCH</h1> 
+
+    <section>
+    <!-- Create a div container -->
+    <div id="container">
+        <!-- create a time div -->
+        <div id="time"> 
+            <!-- in the time div create span on time div -->
+            <span class="digit" id="Hour">00</span>
+            <span class="text">Hr</span>
+            <span class="digit" id="Minute">00</span>
+            <span class="text">Min</span>
+            <span class="digit" id="Second">00</span>
+            <span class="text">Sec</span>
+            <span class="digit" id="Count">00</span>
+            
+        </div>
+
+        <div id="btn-container">
+            <!-- create a btn-container div and set a onclick functions on the buttons -->
+            <button id="Reset" onclick="Reset()" class="btn">Reset</button>
+            <button id="Stop" onclick="Stop()" class="btn">Stop</button>
+            <button id="Start" onclick="Start()" class="btn">Start</button>
+            
+        </div>
+    </div>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
